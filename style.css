@@ -1,0 +1,25 @@
+body{
+    margin: 0%;
+    background-color: #BEE9F9;
+}
+
+.banner{
+    background-color: #A7C7E7;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 10%;
+}
+
+.aboutMe{
+    display: flex;
+}
+
+.highlightedProducts{
+    display: flex;
+    flex-direction: column;
+}
