@@ -1,18 +1,15 @@
+/* MAIN TAGS */
+
 body{
     margin: 0%;
     background-color: #BEE9F9;
     font-family: 'Brush Script MT', cursive;
     margin-bottom: 2%;
+    color: black;
 }
 
 h2{
     align-self: center;
-}
-
-.banner{
-    background-color: #A7C7E7;
-    display: flex;
-    justify-content: space-between;
 }
 
 section{
@@ -28,6 +25,23 @@ section{
     border-radius: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* BANNER */
+
+.banner{
+    background-color: #A7C7E7;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ABT ME */
+
 .aboutMeSection{
     display: flex;
     flex-direction: column;
@@ -42,10 +56,18 @@ section{
     font-size: 25px;
 }
 
+.personImg{
+    height: 286px;
+    width: 334px;
+}
+
+/* HIGHLIGHT */
+
 .highlightedProducts{
     display: flex;
     flex-direction: column;
-    width: 192px;
+    align-items: center;         /* vertical centering */
+    justify-content: center;     /* horizontal centering */
 }
 
 .highlightedSection{
@@ -58,16 +80,28 @@ section{
     justify-content: space-around;
 }
 
-.personImg{
-    height: 286px;
-    width: 334px;
-}
-
 .highlightedYum{
     height: 213px;
     width: 192px;
 }
 
+.highlightedProductsButton{
+    width: 100px;
+    display: flex;               /* makes centering easy */
+    align-items: center;         /* vertical centering */
+    justify-content: center;     /* horizontal centering */
+    background-color: #d9d9d9; /* light grey like in your design */
+    color: black; /* text color */
+    font-weight: 500;
+    text-decoration: none; /* removes underline for links */
+    padding: 8px 20px;
+    border: none;
+    border-radius: 12px; /* rounded corners */
+    cursor: pointer;
+}
+
 .moreLink{
+    justify-content: center;
     align-self: center;
+    margin-top: 10px;
 }
