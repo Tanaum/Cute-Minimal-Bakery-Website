@@ -1,6 +1,12 @@
 body{
     margin: 0%;
     background-color: #BEE9F9;
+    font-family: 'Brush Script MT', cursive;
+    margin-bottom: 2%;
+}
+
+h2{
+    align-self: center;
 }
 
 .banner{
@@ -12,14 +18,56 @@ body{
 section{
     display: flex;
     background-color: #ffffff;
-    margin-top: 10%;
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.aboutMeSection{
+    display: flex;
+    flex-direction: column;
 }
 
 .aboutMe{
     display: flex;
 }
 
+.personDesc{
+    margin-left: 95px;
+    font-size: 25px;
+}
+
 .highlightedProducts{
     display: flex;
     flex-direction: column;
+    width: 192px;
+}
+
+.highlightedSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.highlightedBox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.personImg{
+    height: 286px;
+    width: 334px;
+}
+
+.highlightedYum{
+    height: 213px;
+    width: 192px;
+}
+
+.moreLink{
+    align-self: center;
 }
