@@ -68,7 +68,7 @@ a{
 
 /* HIGHLIGHT */
 
-.highlightedProducts{
+.highlightedProducts, .yumYum{
     display: flex;
     flex-direction: column;
     align-items: center;         /* vertical centering */
@@ -114,6 +114,7 @@ a{
 
 /* All Items Page */
 .cookies, .brownies, .donuts{
-    inherits: section;
     flex-direction: column;
+    align-content: center;
 }
+
