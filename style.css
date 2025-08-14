@@ -111,3 +111,9 @@ a{
     align-self: center;
     margin-top: 10px;
 }
+
+/* All Items Page */
+.cookies, .brownies, .donuts{
+    inherits: section;
+    flex-direction: column;
+}
