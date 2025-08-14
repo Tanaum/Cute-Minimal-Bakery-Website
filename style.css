@@ -113,8 +113,9 @@ a{
 }
 
 /* All Items Page */
-.cookies, .brownies, .donuts{
+.allItems{
     flex-direction: column;
     align-content: center;
+
 }
 
