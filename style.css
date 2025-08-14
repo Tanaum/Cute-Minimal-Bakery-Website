@@ -91,6 +91,11 @@ a, button{
 }
 
 .highlightedProductsButton{
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-variation-settings:"wdth" 100;
     width: 100px;
     display: flex;               /* makes centering easy */
     align-items: center;         /* vertical centering */
