@@ -13,7 +13,7 @@ body{
     color: black;
 }
 
-h2{
+h2, h1{
     align-self: center;
 }
 
@@ -41,8 +41,15 @@ a, button{
     background-color: #A7C7E7;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.cart{
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
 }
 
 /* ABT ME */
