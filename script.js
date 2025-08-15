@@ -1,7 +1,12 @@
 // VARIABLES
 var addToCartButton = $('.highlightedProductsButton');
+var cartItemsDiv = $('.cartItems')
 
 // ADDS TO CART
 addToCartButton.on("click", ()=>{
-    alert("button clicked")
+    var htmlCode = "<section></section>";
+
+    cartItemsDiv.append(htmlCode);
+
+    alert("button clicked");
 });
